@@ -15,7 +15,7 @@
 ### 沒有使用 Mutex 的版本
 
 #### 程式碼
-```python
+```
 import threading
 
 # 初始帳戶餘額
@@ -45,7 +45,7 @@ withdraw_thread.join()
 
 # 打印最終的帳戶餘額
 print(f"最終帳戶餘額: {balance}")
-
+```
 #### 執行結果
 最終帳戶餘額: 1000 (此結果可能因每次執行而不同)
 
