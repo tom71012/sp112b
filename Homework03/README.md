@@ -53,9 +53,7 @@ print(f"最終帳戶餘額: {balance}")
 由於 race condition，最終帳戶餘額可能與預期不符。這是因為多個執行緒同時訪問和修改 balance，導致數據不一致。
 
 ### 使用 Mutex 的版本
-
-import threading
-
+```
 # 初始帳戶餘額
 balance = 1000
 balance_lock = threading.Lock()
@@ -86,7 +84,7 @@ withdraw_thread.join()
 
 # 打印最終的帳戶餘額
 print(f"最終帳戶餘額: {balance}")
-
+```
 #### 執行結果
 最終帳戶餘額: 1000
 
