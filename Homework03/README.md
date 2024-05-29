@@ -54,6 +54,8 @@ print(f"最終帳戶餘額: {balance}")
 
 ### 使用 Mutex 的版本
 ```
+import threading
+
 # 初始帳戶餘額
 balance = 1000
 balance_lock = threading.Lock()
@@ -104,7 +106,5 @@ c. 使用者應檢核『存款＋-存提款數量＝剩下金額』是否正確�
 ## 結論
 這兩個版本展示了多執行緒操作中 race condition 的影響及其解決方法。使用 mutex 能夠有效避免 race condition，確保資料的一致性和正確性。
 
-
-這樣的排版應該更清晰地展示了各個部分的內容和結果，並詳細說明了問題 1 的要求。使用者可以依據這些說明來理解 race condition 的影響以及使用 mutex 的重要性。
 
 
