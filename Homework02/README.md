@@ -26,60 +26,115 @@ int main() {
 執行結果
 
 ========== lex ==============
+
 token=int, type=Keyword
+
 token=main, type=Id
+
 token=(, type=Char
+
 token=), type=Char
+
 token={, type=Char
+
 token=int, type=Keyword
+
 token=x, type=Id
+
 token==, type=Op
+
 token=0, type=Int
+
 token=;, type=Char
+
 token=do, type=Keyword
+
 token={, type=Char
+
 token=x, type=Id
+
 token=++, type=Op
+
 token=;, type=Char
+
 token=}, type=Char
+
 token=while, type=Keyword
+
 token=(, type=Char
+
 token=x, type=Id
+
 token=<, type=Op
+
 token=5, type=Int
+
 token=), type=Char
+
 token=;, type=Char
+
 token=return, type=Keyword
+
 token=0, type=Int
+
 token=;, type=Char
+
 token=}, type=Char
+
 ========== dump ==============
+
 0: int
+
 1: main
+
 2: (
+
 3: )
+
 4: {
+
 5: int
+
 6: x
+
 7: =
+
 8: 0
+
 9: ;
+
 10: do
+
 11: {
+
 12: x
+
 13: ++
+
 14: ;
+
 15: }
+
 16: while
+
 17: (
+
 18: x
+
 19: <
+
 20: 5
+
 21: )
+
 22: ;
+
 23: return
+
 24: 0
+
 25: ;
+
 26: }
 
 注意事項:
