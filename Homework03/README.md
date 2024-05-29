@@ -30,7 +30,7 @@ def withdraw(amount):
     global balance
     for _ in range(100000):
         balance -= amount
-
+```
 # 建立存款與提款的執行緒
 deposit_thread = threading.Thread(target=deposit, args=(1,))
 withdraw_thread = threading.Thread(target=withdraw, args=(1,))
