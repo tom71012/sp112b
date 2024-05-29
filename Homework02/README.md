@@ -27,6 +27,7 @@ int main() {
 
 ========== lex ==============
 
+```
 token=int, type=Keyword
 
 token=main, type=Id
@@ -136,6 +137,8 @@ token=}, type=Char
 25: ;
 
 26: }
+
+```
 
 注意事項:
 
