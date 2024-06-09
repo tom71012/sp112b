@@ -7,43 +7,43 @@
 ## 操作
 執行server.py
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/00%20exeServer.png)
+![image](https://hackmd.io/_uploads/HJIVYTfrR.png)
 
 執行client.py，選擇進入或新增
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/01%20exeClient.png)
+![image](https://hackmd.io/_uploads/S1brKTMrC.png)
 
 進入後選擇伺服器，輸入名稱
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/01%20exeClient1.png)
+![image](https://hackmd.io/_uploads/Byo1opzHA.png)
 
 TTT加入
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/02%20joinChat.png)
+![image](https://hackmd.io/_uploads/rJnxj6Mr0.png)
 
 Alex加入
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/02%20joinChat1.png)
+![image](https://hackmd.io/_uploads/Hkjl36zHR.png)
 
 聊天...
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/03%20chatting.png)
+![image](https://hackmd.io/_uploads/SyUZiTzBC.png)
 
 admin加入，要求輸入密碼
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/04%20adminJoin.png)
+![image](https://hackmd.io/_uploads/r1Cbs6zH0.png)
 
 admin聊天
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/05%20adminSayHi.png)
+![image](https://hackmd.io/_uploads/BkmMspfS0.png)
 
 admin kick Alex
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/06%20adminKick.png)
+![image](https://hackmd.io/_uploads/rkPGoaMrC.png)
 
 admin ban TTT
 
-![image](https://github.com/Jung217/sp111b/blob/main/asset/07%20adminBan.png)
+![image](https://hackmd.io/_uploads/HkhfjaMHC.png)
 
 ## 備註
 
@@ -66,3 +66,5 @@ PS. leave還有一些bug
 [Python 多執行緒 threading 模組平行化程式設計](https://blog.gtwang.org/programming/python-threading-multithreaded-programming-tutorial/)
 
 [TCP/IP 協定與 Internet 網路：TCP Socket 程式介面](http://www.tsnien.idv.tw/Internet_WebBook/chap8/8-5%20Socket%20%E5%BA%AB%E5%AD%98%E5%87%BD%E6%95%B8.html)
+
+[Jung217's Midterm project](https://github.com/Jung217/sp111b/tree/main/Midterm%20project)
