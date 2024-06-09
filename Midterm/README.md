@@ -1,8 +1,8 @@
 ## 聲明
-程式為原創，僅參考老師上課教材及下方網址
+程式為參考[Jung217](https://github.com/Jung217)，並參考老師上課教材及下方網址
 
 ## 發想
-原來想將老師的程式寫成Python，但Python不像C語言一樣底層，所以重現一些如fork的東西很麻煩，因此參考研究老師使用 thread 跟 TCP 的 IP chat 程式進行延伸作為期末專案
+本來想將老師的程式寫成Python，但Python不像C語言一樣底層，所以重現一些如fork的東西很麻煩，因此參考研究老師使用 thread 跟 TCP 的 IP chat 程式進行延伸作為期中專案
 
 ## 操作
 執行server.py
