@@ -1,3 +1,6 @@
+
+# 參考ChatGPT
+
 ## 1.引用函式庫
 
 * `#include <unistd.h>`: 引用POSIX操作系統API的標頭檔，提供了sleep和fork函數。
@@ -30,4 +33,3 @@
 
 這樣就能夠在輸出中交替顯示這三種輸出內容，因為它們是並行執行的。
 
-# 參考ChatGPT
